@@ -9,6 +9,8 @@ import javax.persistence.Table;
 @Table(name="country")
 public class Country {
 
+	//
+	
 	@Id
 	@Column(name="code")
 	private String code;
