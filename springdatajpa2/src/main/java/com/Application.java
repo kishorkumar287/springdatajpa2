@@ -15,6 +15,8 @@ public class Application {
 	private static final Logger LOGGER = LoggerFactory.getLogger(Application.class);
 @Autowired
 	static CountryRepository result;
+//
+
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	
